@@ -1,0 +1,555 @@
+root@pool:~# history
+    1  passwd
+    2  vi /etc/ssh/sshd_config
+    3  service sshd restart
+    4  vi /etc/ssh/sshd_config
+    5  cd /
+    6  sudo apt -y update && sudo apt upgrade -y ; sudo apt-get -y install xfce4 xfce4-goodies ; sudo apt install -y xrdp ; sudo apt install -y firefox ; sudo apt install -y ibus-unikey ; sudo apt-get -y install wget ; sudo wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb ; sudo dpkg -i sublime-text_build-3126_amd64.deb ; sudo apt-get install default-jdk ; sudo apt-get -y update ; sudo apt-get -y install zip unzip
+    7  sudo reboot
+    8  sudo apt-get update
+    9  sudo apt-get upgrade
+   10  sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodejs-dev nodejs-legacy npm cmake libssl-dev
+   11  git clone https://github.com/leviarcoin/leviarcoin-src.git leviarcoin
+   12  cd leviarcoin
+   13  make
+   14  cd
+   15  sudo apt-get install libssl-dev
+   16  git clone https://github.com/erdanisleviarcoinpool/forknote-pool.git pool
+   17  cd leviarcdoin
+   18  cd leviarcoin
+   19  cd build
+   20  cd release
+   21  cd src
+   22  ls
+   23  ./leviarcoind --help
+   24  tmux
+   25  tmux attach -t 0
+   26  tmux attach -t 1
+   27  tmux attach -t 0
+   28  tmux attach -t 1
+   29  tmux attach -t 0
+   30  tmux attach -t 1
+   31  shutdown -r
+   32  shutdown --help
+   33  sudo shutdown -r
+   34  shutdown -r now
+   35  ./leviarcoind --testnet
+   36  ./simplewallet --testnet
+   37  cd leviarcoin
+   38  cd build
+   39  cd release
+   40  cd src
+   41  ./leviarcoind --help
+   42  ./leviarcoind --testnet --data-dir ./root/lvdata
+   43  ./leviarcoind --testnet --data-dir /root/lvdata
+   44  tmux
+   45  tmux attach -t 0
+   46  tmux attach -t 1
+   47  tmux attach -t 0
+   48  tmux attach -t 1
+   49  tmux attach -t 0
+   50  shutdown -r now
+   51  ./leviarcoind --help
+   52  ./leviarcoind --testnet --allow-local-ip --data-dir /root/lvdata
+   53  ./simplewallet --testnet --data-dir /root/lvdata
+   54  ./simplewallet --testnet
+   55  cd leviarcoin
+   56  cd build
+   57  cd release
+   58  cd src
+   59  ./simplewallet --testnet --wallet-file test2 --password test2 --rpc-bind-port 20002
+   60  cd leviarcoin
+   61  cd build
+   62  cd release
+   63  cd src
+   64  ./leviarcoind --testnet --data-dir /root/lvdata
+   65  shutodwn -r now
+   66  shutdown -r now
+   67  cd leviarcoin
+   68  cd build
+   69  cd release
+   70  cd src
+   71  ./simplewallet --testnet --wallet-file test2 --password test2 --bind-rpc-port 20001
+   72  ./simplewallet --testnet --wallet-file test2 --password test2 --rpc-bind-port 20001
+   73  cd leviarcoin
+   74  cd build
+   75  cd release
+   76  cd src
+   77  ./leviarcoind --help
+   78  ./leviarcoind --testnet --add-peer 0.0.0.0:19001  --data-dir /root/lvdata
+   79  ./simplewallet --testnet
+   80  cd leviarcoin
+   81  cd build
+   82  cd release
+   83  cd src
+   84  ./leviarcoind --testnet --data-dir /root/lvdata
+   85  cd leviarcoin
+   86  cd build
+   87  cd release
+   88  cd src
+   89  ./simplewallet --testnet --wallet-file test2 --password test2 --rpc-bind-port 20002
+   90  ./simplewallet --testnet --wallet-file test2 --password test2  --rpc-bind-port 20002
+   91  ./simplewallet --testnet --wallet-file test --password test  --rpc-bind-port 20002
+   92  ./simplewallet --testnet --wallet-file test --password test
+   93  cd leviarcoin
+   94  cd build
+   95  cd release
+   96  cd src
+   97  ./simplewallet --testnet --wallet-file test2 --password test2
+   98  cd pool
+   99  npm update
+  100  sudo apt-get install apache2
+  101  node init.js
+  102  sudo npm update
+  103  node init.js
+  104  sudo npm update
+  105  node init.js
+  106  sudo node init.js
+  107  node init.js
+  108  shutdown -r now
+  109  ls
+  110  sudo apt-get nginx
+  111  sudo apt-get install nginx
+  112  nano /etc/nginx/sites-enabled/default
+  113  service nginx restart
+  114  nano /etc/nginx/sites-enabled/default
+  115  service nginx restart
+  116  nano /etc/nginx/sites-enabled/default
+  117  service nginx restart
+  118  service nginx status
+  119  service nginx restart
+  120  nano /etc/nginx/sites-enabled/default
+  121  service nginx restart
+  122  nano /etc/nginx/sites-enabled/default
+  123  service nginx restart
+  124  sudo apt-get uninstall nginx
+  125  service nginx stop
+  126  service nginx status
+  127  ls
+  128  cd /
+  129  ls
+  130  cd home/sontranhoai1994/
+  131  ls
+  132  cd/
+  133  cd /
+  134  ls
+  135  cd root
+  136  ls
+  137  cd pool/
+  138  ls
+  139  cd website/
+  140  ls
+  141  cd /
+  142  ls
+  143  cd root
+  144  ls
+  145  cd pool/
+  146  ls
+  147  cd website/
+  148  ls
+  149  cd /
+  150  cd leviarcoin
+  151  cd build
+  152  cd release
+  153  cd src
+  154  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-peer 0.0.0.0:28080 --allow-local-ip --data-dir /root/lvdata2
+  155  cd leviarcoin
+  156  cd build
+  157  cd release
+  158  cd src
+  159  ./leviarcoind --testnet --p2p-bind-port 28080 --allow-local-ip --data-dir /root/lvdata
+  160  ./leviarcoind --testnet --p2p-bind-port 28080 --allow-local-ip --data-dir /root/lvdata --rpc-bind-port 19002
+  161  redis-server
+  162  sysctl vm.overcommit_memory=1
+  163  redis-server
+  164  cd leviarcoin
+  165  cd build
+  166  cd release
+  167  cd src
+  168  ./simplewallet --testnet --wallet-file test --password test --rpc-bind-port 20002
+  169  ./simplewallet --testnet --wallet-file test --password test --rpc-bind-port 20002 -daemon-port 19002
+  170  ./simplewallet --testnet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 19002
+  171  cd leviarcoin
+  172  cd build
+  173  cd release
+  174  cd src
+  175  ./simplewallet --testnet
+  176  cd pool
+  177  node init.js
+  178  cd
+  179  cd leviarcoin
+  180  cd build
+  181  cd release
+  182  cd src
+  183  ls
+  184  ./leviarcoind --help
+  185  ./leviarcoind --testnet --data-dir /root/lvdata --allow-local-ip
+  186  ./leviarcoind --testnet --data-dir /root/lvdata
+  187  shutdown -r now
+  188  cd testnet
+  189  cd build
+  190  cd release
+  191  cd src
+  192  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002
+  193  cd testnet
+  194  cd build
+  195  cd release
+  196  cd src
+  197  ./simplewallet
+  198  ls
+  199  cd pool/
+  200  ls
+  201  nano config.json 
+  202  ls
+  203  history
+  204  ls
+  205  cd /
+  206  cd /root/pool/website
+  207  ls
+  208  ls
+  209  cd lv
+  210  cd lvdata
+  211  ls
+  212  cd DB/
+  213  ls
+  214  cd ..
+  215  ls
+  216  cd testnet/
+  217  ls
+  218  cd src/
+  219  ls
+  220  cd ..
+  221  service nginx status
+  222  service nginx stop
+  223  service nginx start
+  224  nano /etc/nginx/nginx.conf
+  225  nano /etc/nginx/sites-enabled/default
+  226  cd /etc/nginx/
+  227  ls
+  228  cd sites-available/
+  229  ls
+  230  nano default 
+  231  service nginx start
+  232  service nginx status
+  233  cd /etc/nginx/
+  234  ls
+  235  cd sites-enabled/
+  236  ls
+  237  nano default 
+  238  service nginx restart
+  239  nano default 
+  240  service nginx restart
+  241  cd pool
+  242  npm update
+  243  node init.js
+  244  shutdown -r now
+  245  cd tesrtnet
+  246  cd testnet
+  247  cd build
+  248  cd release
+  249  cd src
+  250  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-peer 0.0.0.0:28080 --allow-local-ip --data-dir /root/lvdata2
+  251  cd testnet
+  252  cd build
+  253  cd release
+  254  cd src
+  255  ./simplewallet
+  256  cd testnet
+  257  cd build
+  258  cd release
+  259  cd src
+  260  ./simplewallet --help
+  261  ./simplewallet --daemon-port 5010
+  262  git clone https://github.com/erdanisleviarcoinpool/forknote-pool.git testnet
+  263  cd testnet
+  264  cd ..
+  265  git clone https://github.com/leviarcoin/leviarcoin-src.git testnet
+  266  cd testnet
+  267  make
+  268  cd
+  269  git clone https://github.com/leviarcoin/leviarcoin-src.git testnet
+  270  cd testnet
+  271  make
+  272  cd build
+  273  cd release
+  274  cd src
+  275  ./leviarcoind --p2p-bind-port 28080 --allow-local-ip --data-dir /root/lvdata
+  276  ls
+  277  cd pool/
+  278  ls
+  279  node init.js 
+  280  ls
+  281  nano config.json 
+  282  npm update
+  283  nodejs init.js 
+  284  node init.js 
+  285  nano config.json 
+  286  npm update
+  287  node init.js 
+  288  npm update
+  289  nano config.json 
+  290  cd pool
+  291  npm update
+  292  node init.js
+  293  npm update
+  294  node init.js
+  295  redis-commander
+  296  cd
+  297  npm install -g redis-commander
+  298  redis-commander
+  299  sudo ufw status
+  300  sudo ufw allow Ngninx HTTP
+  301  sudo ufw allow 'Ngninx HTTP'
+  302  sudo ufw allow 'Nginx HTTP'
+  303  sudo ufw status
+  304  systemctl status nginx
+  305  sudo systemctl stop nginx
+  306  systemctl
+  307  sudo apt-get purge nginx nginx-common
+  308  sudo service apache2 start
+  309  cd leviarcoin
+  310  cd build
+  311  cd release
+  312  cd src
+  313  ./leviarcoind
+  314  ./leviarcoind --testnet --data-dir /root/lvdata
+  315  cd
+  316  cd testnet
+  317  cd build
+  318  cd release
+  319  cd src
+  320  ./leviarcoind --testnet --data-dir /root/lvdata
+  321  ./leviarcoind  --data-dir /root/lvdata --p2p-bind-port 28080 --allow-local-ip
+  322  cd pool
+  323  node init.js
+  324  npm update
+  325  node init.js
+  326  rm -r node_modules
+  327  npm update
+  328  node init.js
+  329  rm -r node_modules
+  330  npm update
+  331  node init.js
+  332  rm -r node_modules
+  333  npm update
+  334  node init.js
+  335  cd leviarcoin
+  336  cd build
+  337  cd release
+  338  cd src
+  339  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-peer 0.0.0.0:28080 --allow-local-ip --data-dir /root/lvdata2
+  340  cd
+  341  cd testnet
+  342  cd build
+  343  cd release
+  344  cd src
+  345  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-peer 0.0.0.0:28080 --allow-local-ip --data-dir /root/lvdata2
+  346  shutdown -r now
+  347  cd leviarcoin
+  348  cd build
+  349  cd release
+  350  cd src
+  351  ./leviarcoind  --data-dir /root/lvdata --p2p-bind-port 28080 --allow-local-ip
+  352  cd
+  353  cd testnet
+  354  cd build
+  355  cd release
+  356  cd src
+  357  ./leviarcoind  --data-dir /root/lvdata --p2p-bind-port 28080 -                 -allow-local-ip
+  358  ./leviarcoind  --data-dir /root/lvdata --p2p-bind-port 28080 --allow-local-ip
+  359  ./leviarcoind  --data-dir /root/lvdata --p2p-bind-port 28080 --allow-local-ip --testnet
+  360  cd leviarcoin
+  361  cd build
+  362  cd release
+  363  cd src
+  364  ./simplewallet
+  365  ./simplewallet --wallet-file pool --password pool --rpc-bind-port 20002
+  366  ./leviarcoind --help
+  367  ./leviarcoind --testnet --rpc-bind-port 5011 --p2p-bind-port 18002 --add-peer 0.0.0.0:18001 --data-dir /root/lvdata
+  368  ./leviarcoind --testnet --rpc-bind-port 5011 --p2p-bind-port 18002 --add-peer 0.0.0.0:18001 --data-dir /root/lvdata2
+  369  cd
+  370  cd testnet
+  371  cd build
+  372  cd release
+  373  cd src
+  374  ./leviarcoind --testnet --rpc-bind-port 5011 --p2p-bind-port 18002 --add-peer 0.0.0.0:18001 --data-dir /root/lvdata2
+  375  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-èer 0.0.0.0:28080 --allow-local-ip
+  376  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-peer 0.0.0.0:28080 --allow-local-ip
+  377  ./leviarcoind --p2p-bind-port 5011 --rpc-bind-port 5010 --add-peer 0.0.0.0:28080 --allow-local-ip --data-dir /root/lvdata2
+  378  cd leviarcoin
+  379  cd build
+  380  cd release
+  381  cd src
+  382  ./simplewallet --testnet --wallet-file pool --password pool --rpc-bind-port 20002
+  383  cd
+  384  cd testnet
+  385  cd build
+  386  cd release
+  387  cd src
+  388  ./simplewallet --testnet
+  389  ./simplewallet --testnet --wallet-file test --password test --rpc-bind-port 20002
+  390  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002
+  391  ./simplewallet --help
+  392  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010
+  393  cd testnet
+  394  cd build
+  395  cd release
+  396  cd src
+  397  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 
+  398  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010
+  399  ./simplewallet  --rpc-bind-port 20002 --daemon-port 5010
+  400  ./simplewallet --daemon-port 5010
+  401  cd testnet
+  402  cd buyild
+  403  cd build
+  404  cd release
+  405  cd src
+  406  ./simplewwallet --daemon-port 5010
+  407  ./simplewallet --daemon-port
+  408  ./simplewallet --daemon-port 5010
+  409  cd testnet
+  410  cd build
+  411  cd release
+  412  cd src
+  413  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010 --testnet
+  414  cd testnet
+  415  cd build
+  416  cd relase
+  417  cd release
+  418  cd src
+  419  ./simplewallet --testnet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010
+  420  ./simplewallet --testnet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 19001
+  421  cd pool
+  422  git pull
+  423  npm update
+  424  node init.jsç
+  425  node init.js
+  426  shutodwn -r now
+  427  shutdown -r now
+  428  cd testnet
+  429  cd build
+  430  cd release
+  431  cd rc
+  432  sscd src
+  433  cd src
+  434  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010
+  435  ./simplewallet --wallet-file test --password test --daemon-port 5010
+  436  cd pool
+  437  cd
+  438  redis-coommander
+  439  cd testnet
+  440  cd build
+  441  cd release
+  442  cd src
+  443  ./leviarcoin --help
+  444  ./leviarcoind --help
+  445  ./leviarcoind --p2p-bind-port 28080 --allow-local-ip --data-dir /root/lvdata
+  446  redis-commander
+  447  git clone https://github.com/erdanisleviarcoinpool/cryptonote-universal-pool.git pool
+  448  cd testnet
+  449  cd builkd
+  450  cd release
+  451  cd src
+  452  cd ..
+  453  cd build
+  454  cd release
+  455  cd src
+  456  ./leviarcoind --rpc-bind-port 5010 --p2p-bind-port 5011 --allow-local-ip --add-peer 0.0.0.0:28080
+  457  ./leviarcoind --rpc-bind-port 5010 --p2p-bind-port 5011 --allow-local-ip --add-peer 0.0.0.0:28080 --data-dir /root/lvdata2
+  458  cd testnet
+  459  cd build
+  460  cd release
+  461  cd src
+  462  ./simplewallet --testnet --daemon-port 5010
+  463  cd testnet
+  464  cd build
+  465  cd release
+  466  cd src
+  467  ./simplewallet --wallet-file test --password test --rpc-bind-port 20003 --daemon-port 5010 --testnet
+  468  cd testnet
+  469  cd build
+  470  cd release
+  471  cd src
+  472  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010
+  473  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010 --testnet
+  474  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 19001 --testnet
+  475  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 19001
+  476  ./simplewallet --help
+  477  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010 --testnet
+  478  ./simplewallet --testnet --daemon-port 5010
+  479  cd testnet
+  480  cd build
+  481  cd release
+  482  cd src
+  483  ./simplewallet --wallet-file test --password test --rpc-bind-port 20002 --daemon-port 5010 --testnet
+  484  cd testnet
+  485  cd build
+  486  cd release
+  487  cd src
+  488  ./simplwallet --daemon-port 5010
+  489  ./simplewallet ---daemon-port 5010
+  490  ./simplewallet --daemon-port 5010
+  491  cd testnet
+  492  cd build
+  493  cd release
+  494  cd src
+  495  ./simplewallet
+  496  cd testnet
+  497  cd build
+  498  cd release
+  499  cd src
+  500  ./simplewallet --daemon-port 5010
+  501  cd testnet
+  502  cd build
+  503  cd release
+  504  cd src
+  505  ./simplewallet --daemon-port 5010
+  506  cd testnet
+  507  cd build
+  508  cd release
+  509  cd src
+  510  ./simplewallet --wallet-file test5 --password test5 --rpc-bind-port 20003 --daemon-port 5010
+  511  ./simplewallet --wallet-file test5 --password test5  --daemon-port 5010
+  512  cd testnet
+  513  cd build
+  514  cd release
+  515  cd src
+  516  ./simplewallet --wallet-file test --password test --rpc-bind-port 20003 --daemon-port 5010
+  517  ./simplewallet --wallet-file test --password test --rpc-bind-port 20003 --daemon-port 5010 --tesnet
+  518  ./simplewallet --wallet-file test --password test --rpc-bind-port 20003 --daemon-port 5010 --testnet
+  519  ./simplewallet --wallet-file test --password test --rpc-bind-port 20003 --daemon-port 5010
+  520  ./simplewallet --wallet-file test3 --password test3 --rpc-bind-port 20003 --daemon-port 5010
+  521  cd
+  522  cd leviarcoin
+  523  cd build
+  524  cd release
+  525  cd src
+  526  ls
+  527  ./simplewallet --wallet-file pool --password pool --rpc-bind-port 20002
+  528  ./simplewallet
+  529  ./simplewallet --wallet-file pool2 --password pol2 --rpc-bind-port 20002
+  530  ./simplewallet --wallet-file pool2 --password pool2 --rpc-bind-port 20002
+  531  redis-commander
+  532  cd testnet
+  533  cd build
+  534  cd release
+  535  cd src
+  536  ./leviarcoind --rpc-bind-port 5010 --p2p-bind-port 5011 --allow-local-ip --add-peer 0.0.0.0:28080 --data-dir /root/lvdata2
+  537  ./leviarcoind --rpc-bind-port 5010 --p2p-bind-port 5011 --allow-local-ip --add-peer 0.0.0.0:28080 --data-dir /root/lvdata2 --testnet
+  538  ./leviarcoind --rpc-bind-port 5010 --p2p-bind-port 5011 --allow-local-ip --add-peer 0.0.0.0:28080 --data-dir /root/lvdata2
+  539  cd pool
+  540  node init.js
+  541  npm update
+  542  node init.js
+  543  npm update
+  544  node init.js
+  545  npm update
+  546  node init.js
+  547  npm update
+  548  node init.js
+  549  npm update
+  550  node init.js
+  551  npm update
+  552  node init.js
+  553  npm update
+  554  history
